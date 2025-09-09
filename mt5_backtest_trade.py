@@ -4,6 +4,9 @@ import pandas as pd
 import time
 from datetime import datetime, timedelta
 
+import warnings
+warnings.filterwarnings("ignore", category=DeprecationWarning)
+
 # === ACCOUNT (DEMO) ===
 login = 140406934
 password = "Pipchaser110@"
