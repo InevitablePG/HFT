@@ -10,7 +10,7 @@ warnings.filterwarnings("ignore", category=DeprecationWarning)
 # === ACCOUNT (DEMO) ===
 login = 140265920
 password = "Pipchaser110@"
-server = "DerivBVI-Server-03"
+server = "DerivVU-Server-03"
 
 # === STRATEGY SETTINGS ===
 symbols = [
@@ -21,7 +21,7 @@ symbols = [
 # per-symbol lot sizes
 lot_sizes = {
     "Boom 1000 Index": 0.30,
-    "Crash 600 Index": 0.25,
+    "Crash 600 Index": 0.25
 }
 
 fast_ma = 9
